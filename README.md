@@ -4,7 +4,7 @@ Hole Finding Protocol [Detailed descriptions of the steps involved]
 
 The identification of missing enzymes in a metabolic pathway require information about the various reactions of that pathway. This information about the biological reactions are useful in the accurate reconstruction of metabolic pathways having missing enzymes. The details about these reactions are usually stored in some kind of reaction database which constitute a comprehensive resource of all the known reactions. We have used the the upgraded Ma-Zeng bioreaction database (provided herewith) contains 6851 reactions catalyzed by a set of 3525 enzymes and uses KEGG Ligand and Brenda for compiling the information.
 
-Dependcies Required: Graph CPAN package (we have used Graph-0.94) and Storable CPAN package.
+Dependcies Required: Graph CPAN package (we have used Graph-0.94) and Storable module from CPAN package.
 
 1. Parsing of Bioreaction database
 
